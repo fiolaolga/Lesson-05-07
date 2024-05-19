@@ -211,17 +211,18 @@ li{
     display: flex;
     align-items: end;
     gap: 17px;
+    position: relative;
    
 }
 .input-wrapper:first-child{
     margin-bottom: 54px;
     position: relative;
 }
-.input__wrapper:first-child::after{
-    content: "";
+.input-wrapper:first-child::after{
+    content: '';
     width: 830px;
     height: 1px;
-    background: #C2C2C2;
+    background: #656565;
     position: absolute;
     top: 100px;
 }
